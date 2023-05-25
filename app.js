@@ -1,16 +1,16 @@
 var Dispaly = document.getElementById("display");
-function Getting_Value(num){
+function Getting_Value(num) {
     Dispaly.value += num;
 }
-function ClaCulate_Value(){
+function ClaCulate_Value() {
     Dispaly.value = eval(Dispaly.value)
 }
-function CLearAll(){
+function CLearAll() {
     Dispaly.value = "";
 }
-function MinusOne(){
-   Dispaly.value =  Dispaly.value.slice(0,Dispaly.value.length-1)    
+function MinusOne() {
+    Dispaly.value = Dispaly.value.slice(0, Dispaly.value.length - 1)
 }
-function m2(){
+function m2() {
     Dispaly.value = (Dispaly.value) * (Dispaly.value)
 }
