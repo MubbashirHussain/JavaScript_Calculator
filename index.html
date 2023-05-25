@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="main-box">
+        <input type="text" id="display" placeholder="0"  disabled>
+        <div class="row row-5">
+            <div class="box" onclick="CLearAll()"><i class="fa-solid fa-c"></i></div>
+            <div class="box" onclick="MinusOne()"><i class="fa-solid fa-delete-left"></i></div>
+            <div class="box" onclick="m2()">m<sup>2</sup></div>
+            <div class="box" onclick="Getting_Value('%')"><i class="fa-solid fa-percent"></i></div>
+        </div>
+        <div class="row row-1">
+            <div class="box" onclick="Getting_Value(1)">1</div>
+            <div class="box" onclick="Getting_Value(2)">2</div>
+            <div class="box" onclick="Getting_Value(3)">3</div>
+            <div class="box" onclick="Getting_Value('/')"><i class="fa-solid fa-divide"></i></div>
+        </div>
+        <div class="row row-2">
+            <div class="box" onclick="Getting_Value(4)">4</div>
+            <div class="box" onclick="Getting_Value(5)">5</div>
+            <div class="box" onclick="Getting_Value(6)">6</div>
+            <div class="box" onclick="Getting_Value('*')"><i class="fa-solid fa-xmark"></i></div>
+        </div>
+        <div class="row row-3">
+            <div class="box" onclick="Getting_Value(7)">7</div>
+            <div class="box" onclick="Getting_Value(8)">8</div>
+            <div class="box" onclick="Getting_Value(9)">9</div>
+            <div class="box" onclick="Getting_Value('-')"><i class="fa-solid fa-minus"></i></div>
+        </div>
+        <div class="row row-4">
+            <div class="box" onclick="Getting_Value('.')">.</div>
+            <div class="box" onclick="Getting_Value(0)">0</div>
+            <div class="box" onclick="ClaCulate_Value()"><i class="fa-solid fa-equals"></i></div>
+            <div class="box" onclick="Getting_Value('+')"><i class="fa-solid fa-plus"></i></div>
+        </div>
+       
+</div>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js" ></script>
+</body>
+</html>
