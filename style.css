@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     min-height: 100vh;
     background: #302b2b;
     width: 100%;
@@ -15,7 +15,8 @@ body{
     justify-content: center;
     align-items: center;
 }
-.main-box{
+
+.main-box {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -23,43 +24,49 @@ body{
     gap: 10px;
     border: 1px solid #1a18182d;
     padding: 20px;
-    box-shadow: 20px 20px 10px 2px #0000004b, 
-    inset -20px -19px 14px 5px #ffffff05,
-    inset 20px 19px 14px 5px #ffffff09;
-    
+    box-shadow: 20px 20px 10px 2px #0000004b,
+        inset -20px -19px 14px 5px #ffffff05,
+        inset 20px 19px 14px 5px #ffffff09;
+
 }
-.row{
+
+.row {
     display: flex;
     gap: 15px;
 }
-input#display::placeholder{
+
+input#display::placeholder {
     color: #929090;
 }
-input#display{
+
+input#display {
     box-shadow: inset 0 0 10px 2px #0000004b;
     min-height: 60px;
     width: 100%;
     background: #232722;
-    color:#929090 ;
-    font-family:  'Orbitron', sans-serif;
+    color: #929090;
+    font-family: 'Orbitron', sans-serif;
     text-align: right;
     padding: 0 10px;
-    font-size:2.2rem;
+    font-size: 2.2rem;
     /* width: 100%; */
     border: 1px solid #1a1b1a;
 }
-.box{
+
+.box {
     display: flex;
     justify-content: center;
+    font-family: sans-serif;
     align-items: center;
     font-size: 1.3rem;
+    font-weight: 550;
     height: 60px;
-    width:60px;
+    width: 60px;
     user-select: none;
     background: #2e2e29ea;
     border: #1a1b1a 1px solid;
     color: #fff;
     box-shadow:
-    inset -5px -10px 3px  #00000013,
-    inset 5px 10px 3px  #00000013;
+        inset -5px -10px 3px #00000013,
+        inset 5px 10px 3px #00000013;
 }
